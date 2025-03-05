@@ -1,18 +1,15 @@
 /* DEFAULTS */
-/* :root {
+:root {
     /* main size */
+    --page-height: min(100vh,100vw* 1,41);
+    --page-width: calc(var(--page-height) / 1.41);
     /* --page-width: 21cm;
-    --page-height: calc(var(--page-width) * 1.414213562373095);
+    --page-height: calc(var(--page-width) * 1.414213562373095); */
     --page-min: min(var(--page-width), var(--page-height));
     --page-max: max(var(--page-width), var(--page-height));
     --page-diff: calc((var(--page-max) - var(--page-min))*.5);
     --page-bg: white;
     zoom: 80%;
-} */ */
-:root {
-    --page-width: min(100vw, 100vh / 1.414); /* Maintain A4 ratio */
-    --page-height: calc(var(--page-width) * 1.414);
-    --page-bg: white;
 }
 
 
