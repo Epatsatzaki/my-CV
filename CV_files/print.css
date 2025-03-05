@@ -7,7 +7,7 @@
     --page-max: max(var(--page-width), var(--page-height));
     --page-diff: calc((var(--page-max) - var(--page-min))*.5);
     --page-bg: white;
-    zoom: 50%;
+    zoom: 80%;
 }
 
 
