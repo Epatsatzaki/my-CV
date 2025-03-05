@@ -227,7 +227,7 @@ ver { font-size: .9em; }
 .text>:first-child {
     font-size: 1.3rem;
     font-weight: bold;
-    margin: var(--page-elgap) 0 1.6ex; 0;
+    margin: var(--page-elgap) 0 1.6ex; 
 }
 
 
